@@ -1,0 +1,70 @@
+.block {
+    position: relative;
+    width: 320px;
+    margin-left: 200px;
+    background-color: #22A5F1;
+    border-top-left-radius: 40px;
+}
+
+.block1 {
+    position: relative;
+    width: 320px;
+    margin-left: 800px;
+    background-color: #88E307;
+    border-top-left-radius: 40px;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    padding: 0 100px 10px 0;
+    background-color: #682986;
+    border-radius: 10px;
+
+}
+
+.info1 {
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    padding: 0 75px 10px 0;
+    background-color: #682986;
+    border-radius: 10px;
+
+}
+
+.triangle {
+    display: inline-block;
+    position: absolute;
+    left: 22%;
+    bottom: 9%;
+    border: 13px solid transparent;
+    border-right: 13px solid #682986;
+    border-bottom: 13px solid #682986;
+}
+
+.ava {
+    width: 60px;
+    border-radius: 30px;
+    margin: -15px 8px;
+}
+
+.myName {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.myMessage {
+    padding-left: 10px;
+    color: aliceblue;
+
+}
+
+.time {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    display: inline-block;
+    color: lawngreen;
+}

@@ -1,0 +1,56 @@
+.content {
+    width: 300px;
+    padding: 20px;
+    margin-left: 450px;
+    border: 2px black solid;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+.content button {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 6px;
+    width: 60px;
+    border: 2px black solid;
+    border-radius: 10px;
+    background: linear-gradient(81deg, #ddb35f, #7409c7);
+}
+.content button:hover {
+  background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+    border: 2px #8727B4 solid;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /*border: 1px black solid;*/
+}
+.affairs {
+    margin: 2px 0;
+    padding: 8px 0;
+    width: 200px;
+    background: linear-gradient(81deg, #ddb35f, #7409c7);
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 15px;
+    text-align: center;
+}
+.affairs span{
+    color: black ;
+}
+.deleteBut {
+    padding: 8px;
+}
+
+.deleteBut button {
+    width: 40px;
+    padding: 5px 0;
+    background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+    border: 3px black solid;
+    border-radius: 6px;
+}
